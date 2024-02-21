@@ -1,0 +1,84 @@
+body{
+    background-color: #9CAFF0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #0039FE;
+    background-color: aliceblue;
+}
+
+.header{
+    text-align: center;
+    border: 1px solid #0039FE;
+    margin: 5px 5px 5px 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0039FE;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #0039FE;
+}
+
+.bio{
+    text-align: left;
+    border: 1px solid #0039FE;
+    margin: 5px 5px 5px 5px;
+    text-indent:1em;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photo{
+    width:350px;
+    height:200px;
+}
+
+.skills{
+    text-align: center;
+    border: 1px solid #0039FE;
+    margin: 5px 5px 5px 5px;
+}
+
+.contact{
+    text-align: center;
+    border:1px solid #0039FE;
+    margin: 5px 5px 5px 5px;
+}
+
+.contact-form{
+    border:1px solid #0039FE;
+    margin: 5px 5px 5px 5px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    padding:10px;
+}
+
